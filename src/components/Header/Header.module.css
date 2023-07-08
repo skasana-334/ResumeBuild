@@ -1,0 +1,30 @@
+.container{
+    padding:50px 30px;
+    text-align:center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items:space-evenly;
+    gap:30px;
+    /* background-color: rgb(238, 252, 255); */
+    min-height: 85vh;
+}
+.heading{
+    margin: 0 auto;
+   max-width: 500px; 
+   color:black;
+   font-size:2.9rem;
+   font-weight:bold;
+   letter-spacing:2px ;
+   line-height: 3.5rem;
+   font-family: sans-serif;
+}
+.heading span{
+    background-clip: text;
+    background-image: linear-gradient(to right,#239ce2,violet);
+    color: transparent;
+    font-family: sans-serif;
+}
+.right{
+    width:100%;
+}
